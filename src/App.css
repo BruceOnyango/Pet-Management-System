@@ -1,38 +1,195 @@
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: -130px;
+  align-items: center;
+  margin-top: 70px;
+
+}
+.information1 {
+  margin-left: 51%;
+  margin-top: -38.7%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 550px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+
+}
+
+ button {
+  width: 320px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+} 
+
+ button:hover {
+  cursor: pointer;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.employee {
+  
+  height: auto;
+  
+  margin: 10px;
+  border: 15px solid gray;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.employee h3 {
+  margin: 20px;
+}
+.navbar-admin {
+  margin-top: 4px;
+  float: left;
+  display: block;
+  
+  background-color: white;
+  width: 220px;
+  height: 1050px;
+  position: fixed;
+  border-right: 3px solid grey;
+ 
+ 
+}
+.nav-button {
+  display: block;
+  width: 220px;
+  height: 50px;
+  margin-top: 15px;
+  
+}
+.admin-values {
+  height: auto;
+  
+  margin: 10px;
+  border: 15px solid gray;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-left: 221px;
+  
+  z-index:-1;
+}
+Table.clienttable {
+  table-layout: auto;
+  width: 180px;
+  overflow: hidden;
+  margin-left: 120px;
+  text-overflow: ellipsis;
+}
+Table.clienttable-userdetail {
+  table-layout: auto;
+  width: 180px;
+  overflow: hidden;
+  margin-left: 15px;
+  text-overflow: ellipsis;
+}
+tr {
+  width: 5px;
+}
+.heading {
+  margin-left: 35%;
+}
+.clientpage {
+  background: url(https://www.pexels.com/photo/white-and-black-french-bulldog-4587991/);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+.admin-values-userdetail{
+  height: auto;
+  
+  margin: 10px;
+  border: 15px solid gray;
+  border-radius: 15px;
+  display: flex;
+  
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-left: 221px;
+
+}
+.pets-submit{
+  margin-left: 507px;
+}
+
+.pets-update{
+  margin-left: 507px;
+}
+nav{
+  position:fixed;
+  
+}
+.employee-client {
+  
+  height: auto;
+  
+  margin: 10px;
+  border: 15px solid gray;
+  border-radius: 15px;
+  display: flex;
+  
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  margin-left: 221px;
+  
+
+}
+.client-details{
+  margin-top: -500px;
+}
+.search-bar > input{
+  border-radius: 15px;
+  margin-left: 550px;
+  height: 30px;
+}
+.information-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: -25px;
+  align-items: center;
+
+}
+textarea{
+  width: 450px;
 }
