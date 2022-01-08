@@ -1,4 +1,4 @@
-<h1> TechStack<h1>
+<h1 text-align ="center"> TechStack<h1>
   <hr>
 
 
